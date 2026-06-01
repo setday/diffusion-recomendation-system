@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "diffusion-recommendation-system"
+version = "0.1.0"
+description = "Diffusion-based recommendation system"
+readme = "README.md"
+requires-python = ">=3.8"
+license = { file = "LICENSE" }
+authors = [ { name = "Aleksandr Serlov", email = "sana3696g@gmail.com" } ]
+keywords = ["recommendation", "diffusion", "machine-learning"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+]
+
+# Runtime dependencies are pinned in requirements.txt. Keep this list minimal.
+dependencies = [
+]
